@@ -1,0 +1,27 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+
+p {
+  color: red;
+}
+
+.note {
+  font-size: 20px;
+}
+/* Class selector used to apply CSS style to many Element that has the same class */
+#id-selector-demo {
+  color: green;
+}
+/* Id selector use to apply CSS style to one Element that has a unique id in each Html file */
+li[value="4"] {
+  color: blue;
+}
+
+* {
+  text-align: center;
+}
