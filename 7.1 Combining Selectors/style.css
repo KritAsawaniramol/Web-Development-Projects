@@ -1,0 +1,41 @@
+/* Write your code here: */
+
+/* Grop = Apply to both selectors
+selector, selector {}
+*/
+h1, h2 {
+    color: blueviolet;
+}
+
+/* 
+Child = Apply to direct child of left side
+parent > child {}
+*/
+.box > p {
+    color: firebrick;
+}
+
+/*
+Descendant = Apply to a descendant of left side
+ancestor descendant {}
+*/
+.box li{
+    color: blue; 
+}
+
+/*
+Chaining = Apply where All selectors are true
+selectorselector {}
+*/
+li.done{
+    color: seagreen;
+}
+
+/* Combining Combiners
+e.g.
+ancestor Chaning,
+ancestor Grop,
+ancestor Child, ... */
+ul p.done{
+    font-size: 0.5rem;
+}
