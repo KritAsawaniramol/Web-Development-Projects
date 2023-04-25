@@ -9,6 +9,56 @@
   <style>
     body {
       font-family: 'Sono', sans-serif;
+      margin: 0;
+    }
+
+    .pricing-container{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .plan-title ,.plan-price{
+      font-weight: bold;
+    }
+
+    .plan-title {
+      font-size: 1.5rem;
+    }
+
+    .plan-price{
+      font-size: 3rem;
+    }
+
+    .pricing-plan{
+      text-align: center;
+      background-color: whitesmoke;
+      height: 41%;
+      flex-basis: 440px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: space-evenly;
+    }
+
+    .pricing-plan >*{
+      flex-grow: 1;
+    }
+
+    .plan-features{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .plan-button{
+      color: white;
+      background-color: orange;
+      border: 0;
+      height: 40px;
+      width: 70px;
+      border-radius: 10px;
     }
 
     /* Hint: What can you do with a media query and flexbox? */
@@ -25,7 +75,9 @@
       <div class="plan-price">$9.99/month</div>
       <ul class="plan-features">
         <li>✅ 10GB Storage</li>
-        <li>✅ 1 User</li>
+        <br>
+        <li>✅ 1 User</li>      
+        <br>
         <li>🚫 Support</li>
       </ul>
       <button class="plan-button">Sign Up</a>
@@ -35,7 +87,9 @@
       <div class="plan-price">$19.99/month</div>
       <ul class="plan-features">
         <li>✅ 50GB Storage</li>
+        <br>
         <li>✅ 5 Users</li>
+        <br>
         <li>✅ Phone &amp; Email Support</li>
       </ul>
       <button class="plan-button">Sign Up</a>
@@ -45,7 +99,9 @@
       <div class="plan-price">$49.99/month</div>
       <ul class="plan-features">
         <li>✅ 100GB Storage</li>
+        <br>
         <li>✅ 10 Users</li>
+        <br>
         <li>✅ 24/7 Support</li>
       </ul>
       <button class="plan-button">Sign Up</a>
